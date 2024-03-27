@@ -1,0 +1,82 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.screen{
+    background-color: black;
+   display: flex;
+   flex-direction: column;
+align-items: flex-end;
+ 
+    .bottom-bar,.top-bar{
+        height:4vh;
+        color:white;
+    }
+}
+
+.firstRow,.secondRow,.thirdRow,.fourthRow,.fifthRow{
+    display: flex;
+    flex-direction: row;
+   
+    button{
+        padding: 10px;
+        border: none;
+    margin: 2px;    }
+   
+}
+
+table{
+    background-color: rgb(218, 235, 156);
+}
+
+td{
+    padding:10px;
+}
+
+
+#back{
+    background-color: red;
+}
+
+#ac{
+    background-color: lightblue;
+}
+
+#plus{
+    background-color:darkolivegreen;
+    color:white;
+}
+
+#minus{
+    background-color: rgb(0, 255, 166);
+    color:white;
+}
+
+#multiply{
+    background-color: rgb(212, 255, 0);
+    color:white;
+
+}
+
+#divide{
+    background-color: orange;
+    color:white;
+}
+
+#equal{
+    background-color: green;
+    color:white;
+}
